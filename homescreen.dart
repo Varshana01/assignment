@@ -24,10 +24,8 @@ class HomeScreen extends StatelessWidget {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      // ignore: deprecated_member_use
                       Colors.black.withOpacity(0.3),
                       Colors.transparent,
-                      // ignore: deprecated_member_use
                       Colors.black.withOpacity(0.4),
                     ],
                   ),
@@ -41,11 +39,9 @@ class HomeScreen extends StatelessWidget {
                       Container(
                         padding: const EdgeInsets.all(20),
                         decoration: BoxDecoration(
-                          // ignore: deprecated_member_use
                           color: Colors.white.withOpacity(0.1),
                           borderRadius: BorderRadius.circular(12),
                           border: Border.all(
-                            // ignore: deprecated_member_use
                             color: Colors.white.withOpacity(0.3),
                             width: 1,
                           ),

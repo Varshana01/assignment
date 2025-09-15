@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "explore_moris",
+            "cwd": "explore_moris",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "explore_moris (profile mode)",
+            "cwd": "explore_moris",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "explore_moris (release mode)",
+            "cwd": "explore_moris",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

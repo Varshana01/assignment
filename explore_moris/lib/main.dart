@@ -1,8 +1,9 @@
-// ignore_for_file: library_private_types_in_public_api
+// ignore_for_file: library_private_types_in_public_api, unused_import
 
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
+import 'Explore.dart';
 
 // Import your generated firebase_options.dart (from flutterfire configure)
 import 'firebase_options.dart';

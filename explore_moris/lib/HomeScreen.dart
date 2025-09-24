@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
               height: MediaQuery.of(context).size.height * 0.6,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/mauritius_background.jpg'), // You'll need to add this image
+                  image: AssetImage('assets/mauritius_background.jpg'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -54,7 +54,7 @@ class HomeScreen extends StatelessWidget {
                           children: [
                             // Logo
                             Image.asset(
-                              'assets/logo.png',
+                              'assets/images/logo.png',
                               width: 80,
                               height: 80,
                               fit: BoxFit.contain,

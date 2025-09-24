@@ -5,13 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f72f2298-3593-4fa4-b3fc-afbe06b9cbf6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/explore_moris/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explore_moris/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explore_moris/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/flutter/generated_plugins.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explore_moris/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explore_moris/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explore_moris/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deviceManager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deviceManager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/analysis_options.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/analysis_options.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/kotlin/com/example/explore_moris/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/kotlin/com/example/exploremoris/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/android/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/ios/RunnerTests/RunnerTests.swift" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/ios/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/lib/Explore.dart" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/lib/Explore.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/lib/HomeScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/lib/HomeScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/lib/SignIn.dart" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/lib/SignIn.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/lib/SignUp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/lib/SignUp.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/lib/firebase_options.dart" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/lib/firebase_options.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/linux/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/linux/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/linux/flutter/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/flutter/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/linux/runner/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/runner/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/linux/runner/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/runner/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/linux/runner/my_application.cc" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/runner/my_application.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/linux/runner/my_application.h" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/linux/runner/my_application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/Base.lproj/MainMenu.xib" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/Configs/AppInfo.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/Configs/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/Configs/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/Configs/Warnings.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/DebugProfile.entitlements" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/DebugProfile.entitlements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/MainFlutterWindow.swift" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/Runner/Release.entitlements" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/Runner/Release.entitlements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/macos/RunnerTests/RunnerTests.swift" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/macos/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/test/widget_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/web/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/web/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/flutter/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/flutter/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/Runner.rc" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/Runner.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/flutter_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/flutter_window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/flutter_window.h" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/flutter_window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/resource.h" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/resource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/runner.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/runner.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/utils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/win32_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/win32_window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explore_moris/windows/runner/win32_window.h" beforeDir="false" afterPath="$PROJECT_DIR$/explore_moris/windows/runner/win32_window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +123,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="32hemRBtp79dxOERS8fEKKDUPlj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,7 +142,8 @@
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/hemsh/OneDrive/Desktop/assignment",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Documents/UniWork/Year 3/Mobile Computing and Wireless Technologies/assignment",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>

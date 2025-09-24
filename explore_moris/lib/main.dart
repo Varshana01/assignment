@@ -1,15 +1,15 @@
-// ignore_for_file: library_private_types_in_public_api, unused_import
 
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
-import 'Explore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
-// Import your generated firebase_options.dart (from flutterfire configure)
+
+// Screens
 import 'firebase_options.dart';
-
-// Import SignupPage
 import 'Signup.dart';
+import 'SignIn.dart';
+import 'HomeScreen.dart'; // your home screen file
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,7 +30,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: const SplashScreen(),
+      // Start with Splash
+      initialRoute: '/splash',
+      routes: {
+        '/splash': (_) => const SplashScreen(),
+        '/signin': (_) => const SignInPage(),
+        '/signup': (_) => const SignupPage(),
+        '/home': (_) => const HomeScreen(),
+      },
     );
   }
 }
@@ -46,11 +53,17 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    // Wait 3 seconds before going to SignupPage
-    Timer(const Duration(seconds: 3), () {
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => const SignupPage()),
-      );
+
+    // Wait 2 seconds then check auth state
+    Timer(const Duration(seconds: 2), () {
+      final user = FirebaseAuth.instance.currentUser;
+      if (user != null) {
+        // User already logged in → go to home
+        Navigator.pushReplacementNamed(context, '/home');
+      } else {
+        // Not logged in → go to sign in
+        Navigator.pushReplacementNamed(context, '/signin');
+      }
     });
   }
 
@@ -77,62 +90,6 @@ class _SplashScreenState extends State<SplashScreen> {
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
                 letterSpacing: 2,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.teal,
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // Logo
-            Image.asset(
-              'assets/images/logo.png',
-              width: 400,
-              height: 400,
-              fit: BoxFit.contain,
-            ),
-            const SizedBox(height:10),
-            // Welcome text
-            const Text(
-              "Welcome to ExploreMoris!",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const SizedBox(height: 30),
-            // Button to navigate to Signup Page
-            SizedBox(
-              width: 200,
-              height: 50,
-              child: ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (_) => const SignupPage()),
-                  );
-                },
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color.fromARGB(255, 200, 205, 205),
-                ),
-                child: const Text(
-                  "Sign Up",
-                  style: TextStyle(fontSize: 18),
-                ),
               ),
             ),
           ],

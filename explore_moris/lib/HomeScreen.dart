@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Bookmarks.dart'; // 👈 make sure this file exists
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -24,10 +25,8 @@ class HomeScreen extends StatelessWidget {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      // ignore: deprecated_member_use
                       Colors.black.withOpacity(0.3),
                       Colors.transparent,
-                      // ignore: deprecated_member_use
                       Colors.black.withOpacity(0.4),
                     ],
                   ),
@@ -36,23 +35,18 @@ class HomeScreen extends StatelessWidget {
                   child: Column(
                     children: [
                       const SizedBox(height: 60),
-                      
-                      // Logo container
                       Container(
                         padding: const EdgeInsets.all(20),
                         decoration: BoxDecoration(
-                          // ignore: deprecated_member_use
                           color: Colors.white.withOpacity(0.1),
                           borderRadius: BorderRadius.circular(12),
                           border: Border.all(
-                            // ignore: deprecated_member_use
                             color: Colors.white.withOpacity(0.3),
                             width: 1,
                           ),
                         ),
                         child: Column(
                           children: [
-                            // Logo
                             Image.asset(
                               'assets/images/logo.png',
                               width: 80,
@@ -60,8 +54,6 @@ class HomeScreen extends StatelessWidget {
                               fit: BoxFit.contain,
                             ),
                             const SizedBox(height: 16),
-                            
-                            // App title
                             const Text(
                               'EXPLOREMORIS',
                               style: TextStyle(
@@ -86,14 +78,14 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            
+
             // Bottom white section
             Container(
               color: Colors.white,
               child: Column(
                 children: [
                   const SizedBox(height: 20),
-                  
+
                   // Search bar
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -130,9 +122,9 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  
+
                   const SizedBox(height: 30),
-                  
+
                   // Feature buttons row
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -143,23 +135,37 @@ class HomeScreen extends StatelessWidget {
                           icon: Icons.location_city,
                           title: 'Top\nAttractions',
                           color: const Color(0xFF20B2AA),
+                          onTap: () {
+                            // TODO: Navigate to TopAttractionsPage
+                          },
                         ),
                         _buildFeatureButton(
                           icon: Icons.place,
                           title: 'Places\nNearby',
                           color: const Color(0xFFFFA500),
+                          onTap: () {
+                            // TODO: Navigate to PlacesNearbyPage
+                          },
                         ),
                         _buildFeatureButton(
                           icon: Icons.bookmark,
                           title: 'BookMarks',
                           color: const Color(0xFF87CEEB),
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => const BookmarksPage(),
+                              ),
+                            );
+                          },
                         ),
                       ],
                     ),
                   ),
-                  
+
                   const SizedBox(height: 30),
-                  
+
                   // Hidden spot card
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -180,7 +186,6 @@ class HomeScreen extends StatelessWidget {
                         children: [
                           Row(
                             children: [
-                              // Image
                               ClipRRect(
                                 borderRadius: const BorderRadius.only(
                                   topLeft: Radius.circular(16),
@@ -189,22 +194,20 @@ class HomeScreen extends StatelessWidget {
                                 child: Container(
                                   width: 120,
                                   height: 120,
-                                  color: const Color(0xFF20B2AA), // Placeholder color
+                                  color: const Color(0xFF20B2AA),
                                   child: const Icon(
                                     Icons.water,
                                     color: Colors.white,
                                     size: 40,
                                   ),
-                                  // Replace with: Image.asset('assets/waterfall.jpg', fit: BoxFit.cover)
                                 ),
                               ),
-                              
-                              // Content
                               Expanded(
                                 child: Padding(
                                   padding: const EdgeInsets.all(16),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.start,
                                     children: [
                                       const Text(
                                         "This week's hidden spot",
@@ -230,9 +233,11 @@ class HomeScreen extends StatelessWidget {
                                           // Handle explore now
                                         },
                                         style: ElevatedButton.styleFrom(
-                                          backgroundColor: const Color(0xFFFFA500),
+                                          backgroundColor:
+                                          const Color(0xFFFFA500),
                                           shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(20),
+                                            borderRadius:
+                                            BorderRadius.circular(20),
                                           ),
                                           padding: const EdgeInsets.symmetric(
                                             horizontal: 20,
@@ -254,8 +259,6 @@ class HomeScreen extends StatelessWidget {
                               ),
                             ],
                           ),
-                          
-                          // Close button
                           Positioned(
                             top: 8,
                             right: 8,
@@ -285,7 +288,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  
+
                   const SizedBox(height: 40),
                 ],
               ),
@@ -300,34 +303,34 @@ class HomeScreen extends StatelessWidget {
     required IconData icon,
     required String title,
     required Color color,
+    required VoidCallback onTap,
   }) {
-    return Container(
-      width: 100,
-      height: 100,
-      decoration: BoxDecoration(
-        color: color,
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(
-            icon,
-            color: Colors.white,
-            size: 32,
-          ),
-          const SizedBox(height: 8),
-          Text(
-            title,
-            textAlign: TextAlign.center,
-            style: const TextStyle(
-              color: Colors.white,
-              fontSize: 12,
-              fontWeight: FontWeight.w600,
-              height: 1.2,
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        width: 100,
+        height: 100,
+        decoration: BoxDecoration(
+          color: color,
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(icon, color: Colors.white, size: 32),
+            const SizedBox(height: 8),
+            Text(
+              title,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                height: 1.2,
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

@@ -41,6 +41,11 @@ dependencies:
   # Cloud Firestore (optional, if you want to store usernames)
   cloud_firestore: ^5.1.0
 
+  firebase_database: ^11.1.4
+  geolocator: ^13.0.1
+  shared_preferences: ^2.3.2
+
+
   cupertino_icons: ^1.0.8
 
 
